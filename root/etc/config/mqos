@@ -6,6 +6,6 @@ config global
 
 # config device 
 #     option mac 00:00:00:00
-#     option dl 10
-#     option up 10
+#     option download 10
+#     option upload 10
 #     option comment "hostname"

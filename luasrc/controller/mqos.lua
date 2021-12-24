@@ -5,5 +5,5 @@ function index()
 		return
 	end
 	
-	entry({"admin", "network", "mqos"}, cbi("mqos/mqos"), _("MQoS"))
+	entry({"admin", "network", "mqos"}, cbi("mqos"), _("MQOS"), 10).dependent = true
 end
